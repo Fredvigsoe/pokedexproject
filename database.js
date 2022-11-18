@@ -10,10 +10,7 @@ const mysqlConnection = mysql.createConnection({
     multipleStatements: true,
 });
 
-console.log(process.env.HOST)
-console.log(process.env.PORT)
-console.log(process.env.MYSQL_USER)
-console.log(process.env.DATABASE)
+
 
 mysqlConnection.connect((err) => {
     if (!err) {
