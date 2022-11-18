@@ -277,7 +277,8 @@ app.get('/pokedex/type/fighting', (req, res) => {
     );
 })
 
-
 server.listen(3000,(port) => {
     console.log('Listening on port ' + server.address().port);
 });
+
+module.exports = app;
